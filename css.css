@@ -1,0 +1,81 @@
+body {
+    background-color: navy;
+}
+
+h1, h2 ,h3{
+    color: yellow;
+}
+#pAbout {
+    color: yellow;
+    font-size: large;
+    text-align: justify;
+}
+#pAbout1 {
+    color: yellow;
+    font-size: large;
+    text-align: justify;
+}
+#pAbout2 {
+    color: yellow;
+    font-size: large;
+    text-align: justify;
+}
+#pAbout3 {
+    color: yellow;
+    font-size: large;
+    text-align: justify;
+}
+#promotion {
+    background-color:rgb(157, 255, 157);
+}
+#promotion1 {
+    background-color:rgb(157, 255, 157);
+}
+#relegation {
+background-color: rgb(226, 113, 113);
+}
+#relegation1 {
+    background-color: rgb(226, 113, 113);
+}
+ui table thead th {
+    font-size:xx-large;
+text-transform: capitalize;
+font-style: italic;
+}
+i {
+    align-self: auto;
+}
+#regmain {
+    margin-top: 100px;
+    text-align: center;
+    color: black;
+    background-color: beige;
+}
+h3, p {
+    font-size: large;
+    text-align: center;
+}
+label {
+    padding: 20px;
+}
+#image {
+    margin-top: 200px;
+}
+.ui.card {
+    text-align: center;
+    text-decoration: solid;
+    font-size: xx-large;
+}
+#cards {
+    margin: 100px;
+}
+.ui.menu {
+    color: blue;
+}
+figure {
+    color: yellow; 
+    text-align: center;
+}
+#h3reg {
+color: black;
+}

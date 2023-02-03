@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Registration</title>
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.css">
+ <link href="css/css.css" rel="stylesheet">
+</head>
+<body>
+    <div class="ui container">
+    <header>
+        <img src="images/crest-removebg-preview.png" alt="DC Crest">
+        <nav>
+            <div class="ui four item menu">
+                <a class="item" href="index.html">Home Page</a>
+                 <a class="item" href="catalog.html">Catalog</a>
+                 <a class="item" href="registration.html">Registration</a>
+                 <a class="item" href="leagueTable.html">League Table</a>
+                 </div>
+    </nav>
+    </header>
+
+    <main id="regmain">
+        <form action="0" method = "get" class="ui form">
+        <div class="ui field">
+        <h3 id="h3reg">Club Registration Form 2022</h3>
+        <p>Please Enter your Details below to Register as a Member of the Club for 2022.</p>
+        <label>First Name</label>
+        <input type="text" id="fname" name = "fname" placeholder="First Name" >
+        <label>Last Name</label>
+        <input type="text" id="lname" name = "lname" placeholder="Last Name" autofocus>
+        <br>
+        <br>
+        <br>
+        <br>
+        <label>Date Of Birth</label>
+        <br>
+        <br>
+        <input type="date">
+        <br>
+        <label>Home Address</label>
+        <br>
+        <br>
+     <input type="text" id="address" name="address" placeholder="Street"><br>
+        <input type="text" id="address1" name="Town" placeholder="Town/City"><br>
+        <input type="text" id="address2" name="Country" placeholder="County"><br>
+        <br>
+        <label>Eircode</label>
+        <br>
+        <input type="text" id="eircode" name="eircode" placeholder="Eircode">
+        <br>
+  <label>Choose Membership Option:</label>
+  <input type="button" name="membership" value="Preumium">
+  <div class="description">
+    A premium membership will grant you access to certain free club merchandise,<br>
+    along with a free program each week and 10% off next years membership.<br> all match Fees are included in price.
+  </div>
+  <input type="button" name="membership" value="Standard">
+  <div class="description">
+    The standard membership option will grant the basic access to training and club facilities only.<br>
+    Match fees will not be paid for.
+  </div>
+  <br>
+  <br>
+  <label>Choose Payment Plan:</label>
+  <input type="button" name="Full" value="Full">
+  <div class="description">
+    This is the Full Amount in one payment
+  </div>
+  <br>
+  <input type="button" name="Monthly" value="Monthly">
+  <div class="description">
+    This is a Fixed monthly fee depending on which membership you choose.
+    It will be on direct debit and charged on the first of each month.
+  </div>
+        <br>
+        <label>Proceed to Checkout</label>
+        <input type="button" name="Checkout" value="Checkout">
+        </div>
+        <br>
+        <br>
+        </form>
+    </main>
+    </div>
+ <script src="https://code.jquery.com/jquery-3.6.1.min.js" 
+  integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" 
+  crossorigin="anonymous">
+ </script>
+ <script  src="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.js"></script>
+</body>
+</html>
